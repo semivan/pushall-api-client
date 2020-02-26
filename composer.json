@@ -1,0 +1,28 @@
+{
+    "name": "semivan/pushall-api-client",
+    "description": "Удобный PHP клиент для работы с API PushAll.ru",
+    "type": "library",
+	"license": "MIT",
+	"minimum-stability": "dev",
+    "keywords": [
+		"pushall",
+		"api",
+		"client",
+		"library"
+	],
+    "authors": [
+        {
+            "name": "Ivan Semenikhin",
+            "email": "semeninhin.ivan@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "^7.1",
+        "symfony/http-client": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PushAll\\": "src/"
+        }
+    }
+}
